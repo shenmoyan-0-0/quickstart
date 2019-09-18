@@ -8,10 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>JavaWab起步</title>
+    <title>首页</title>
   </head>
   <body>
-  Hello，开始学习Java Wab~~
-  <p><a href="my.html" >个人中心</a></p>>
+  <h2>首页</h2>
+<h2>欢迎你:<%=request.getAttribute("usename")%></h2>
+
   </body>
 </html>
